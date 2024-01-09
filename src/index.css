@@ -1,0 +1,174 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+ /* background-image: url("./imgs/milad-fakurian-nY14Fs8pxT8-unsplash.jpg");*/
+}
+
+.MuiStepLabel-labelContainer span {
+  color:rgb(255, 249, 241)
+}
+/* .MuiStepLabel-label.Mui-active{
+  color:ghostwhite
+} */
+span.MuiStepLabel-label {
+  color:aliceblue
+}
+.css-nsxh5k-MuiStepLabel-label.Mui-completed{
+  color:floralwhite
+}
+.Mui-completed {
+  color:cornsilk
+}
+.MuiSvgIcon-root{
+  color: antiquewhite;
+}
+circle {
+  color: #fff;
+  background-color: antiquewhite;
+}
+span.Mui-completed {
+  color:aliceblue
+}
+.css-nsxh5k-MuiStepLabel-label.Mui-completed {
+  color:azure
+}
+.css-nsxh5k-MuiStepLabel-label.Mui-active {
+  color:bisque
+}
+.Mui-active {
+  color:beige
+}
+.MuiSvgIcon-root-MuiStepIcon-root {
+  fill:aliceblue
+}
+.MuiSvgIcon-root-MuiStepIcon-root {
+  color: #fff;
+}
+.MuiInputBase-input{
+  color:#fff
+}
+h1{
+  margin: 4rem 0.5rem 1rem 0.5rem;
+  text-align: center;
+  font-family: 'Comic Neue', cursive;
+}
+
+
+.font{
+  background-image:linear-gradient(to right, #553c9a 45%, #ee4b2b);
+  color: transparent;
+  background-clip: text;
+}
+
+.app-wrapper{
+  display: flex;
+  justify-content: center;
+  max-width: 700px;
+  margin: auto;
+  align-items: center;
+  padding: 1rem;
+}
+
+.stepper-wrapper{
+  margin: 2rem 0;
+}
+p {
+  color: aliceblue;
+}
+
+.listGrid{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+label {
+  color: aliceblue;
+  border-color: aliceblue;
+}
+
+.css-g8q7n7-MuiButtonBase-root-MuiButton-root, .css-nkyq5h-MuiButtonBase-root-MuiButton-root{
+  float: right;
+}
+input.css-yf8vq0-MuiSelect-nativeInput {
+  border-color: aliceblue;
+  border: width 2px; ;
+}
+.MuiOutlinedInput-input {
+  color:aliceblue;
+}
+.css-nsxh5k-MuiStepLabel-label.Mui-active {
+  color:aliceblue
+}
+.finishButton{
+  margin-top: 2rem;
+}
+
+.buttons{
+  margin-top: 2rem;
+}
+
+.heading{
+  margin: 4rem 0;
+  text-align: center;
+  color: aliceblue;
+}
+
+#sidenav {
+  background-color:'#141E46';
+}
+
+iframe{
+  border: none;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+  h1{
+    margin: 2rem 0.5rem;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .stepper-wrapper{
+    margin: 0;
+  }
+
+  .listGrid{
+    display: block;
+    margin-bottom: 2.5rem;
+  }
+
+  .listGrid i p{
+    margin-bottom: 10px;
+  }
+
+  .finishButton{
+    margin-top: 0;
+  }
+
+  .buttons{
+    margin-top: 0;
+  }
+
+  .heading{
+    font-size: 20px;
+    margin: 2rem 0;
+  }
+
+  iframe{
+    width: 100%;
+    height: 200px;
+  }
+}
